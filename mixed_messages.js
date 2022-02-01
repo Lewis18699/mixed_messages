@@ -6,3 +6,8 @@ const moods = ['happy','sad','angry','fearful','joyful','excited','anxious',
 
 const outcome = ['have fun','smile','laugh','love','cry','explore','go for it',
 'do what feels right','be cautious','go on an adventure','give up','carry on'];
+
+let randomElement = (array) => {
+    return array[Math.floor(Math.random() * 12)];
+};
+
